@@ -8,3 +8,22 @@ Over the past couple of months, ​large language models, or LLMs, ​such as Ch
 ​And that's just assuming you actually know what the data is. ​Often we don't even know for a lot of these open source models that have been posted, ​what the exact data sets are that these models have been ​trained on leading to trustworthiness issues. ​So IBM recognizes the huge potential of these technologies. ​But my partners in IBM Research are working on ​multiple different innovations to try and improve also the efficiency of these models, ​and the trustworthiness and reliability of ​these models to make them more relevant in a business setting. ​All of these examples that I've talked through so far have just been on the language side. ​But the reality is, ​there are a lot of other domains that foundation models can be applied towards. ​Famously, we've seen foundation models for vision, ​looking at models such as DALLL E2, ​which takes text data and that's then used to generate a custom image. 
 ​We've seen models for code with products like ​Copilot that can help complete code as it's being authored. ​And IBM's innovating across all of these domains. ​So whether it's language models that we're building into ​products like Watson Assistant and Watson Discovery, ​vision models that we're building into products like Maximo Visual Inspection, ​or Ansible code models that we're building with our partners at Red Hat under Project Wisdom. ​We're innovating across all of these domains and more. ​We're working on chemistry. ​So for example, we just published and released Moleformer, ​which is a foundation model to promote ​molecule discovery for different targeted therapeutics. ​And we're working on models for climate change. 
 ​Building earth science foundation models using geospatial data to improve climate research. ​I hope you found this video both informative and helpful. ​If you're interested in learning more, particularly how IBM is working to improve ​some of these disadvantages, making foundation models more trustworthy and more efficient, ​please take a look at the links below. ​Thank you. 
+
+# Keywords
+Tuning: the process of taking an existing, pre-trained AI model and training it further on a smaller, specialized dataset to adapt it for a specific task, industry, or brand tone
+
+# Summary
+## Cycle:
+LLMs/ Vision / Code / Chemistry / Climate Change  -> Foundation Model -> Generative AI
+## Products example:
+* LLMs: Ai Assistant
+* Vision: Visual Inspection
+* 
+## Advantages:
+* Performance : models have seen terabytes of Data can outperform any model that is only trained on just a few data points
+* Productivity : Through prompting and tuning, far less labeled data is needed to get to a task specific model than if u had to start from scratch. Why? Because foundation model is already is using taking advantage of all of the unlabeled data that it saw in its pre-training when it was created for the genAI task
+
+## Disadvantages
+* Compute cost (those billion parameters do not run on hopes and dreams :) )
+* Trustworthiness: Those unlabeled data in training file could be biased, hate speech or toxic information
+*
