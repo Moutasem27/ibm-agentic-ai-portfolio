@@ -19,6 +19,7 @@ Over the past couple of months, ​large language models, or LLMs, ​such as Ch
 
 # Keywords
 Tuning: the process of taking an existing, pre-trained AI model and training it further on a smaller, specialized dataset to adapt it for a specific task, industry, or brand tone
+
 Prompting: is the process of giving specific instructions, questions, or text inputs to an AI model to guide its output
 
 # Summary
