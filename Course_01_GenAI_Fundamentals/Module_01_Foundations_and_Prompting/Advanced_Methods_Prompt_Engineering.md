@@ -56,3 +56,6 @@ Example:
 
 *It's consistent that your sister is 67 years old now.*
 
+## Tools and applications
+* Examples: OpenAi's playground, LangChain, HuggingFace, IBM's AI classroom
+* They allow interactive experimentation, Diverse model access, Collaboration and Sharing
