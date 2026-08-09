@@ -40,6 +40,7 @@ Break down each step of your calculation
 1. Initial number of apples: Starts with the number of apples the store had, which is 22.
 2. Apples sold: Subtract the number of apples sold today from the initial number. The store sold 15 apples, so subtract 15 from 22: 22 - 15 = 7.
 3. New delivery: Add the number of apples from the new delivery. The store received 8 new apples, so add 8 to the remaining apples: 7 + 8 = 15.
+
 So, after selling 15 apples and receiving a new delivery of 8 apples, the store now has 15 apples.
 
 ## Self-consistency
@@ -47,3 +48,15 @@ Used to enhance the reliability and accuracy of outputs. It also involves genera
 Example:
 * Model input: When I was 6, my sister was half of my age. Now I am 79, what age is my sister?
 * Model output:
+| When you were 6, your sister was half your age, making her 3 years old. The age difference between you and yours sister is 6 - 3 = 3 years.
+
+ Now that you are 70, your sister, being 3 years younger, is 70 - 3 = 67. | You were 6 and your sister was half your age, so she was 3 
+ Since that time, 64 years have passed (from when you were 6 to when you are now 70).
+ 
+ Your sister's age would then be 3+64 = 67. | The ratio when you were 6 (you were twice as old as your sister) means she was 3.
+ 
+The consistent age is 3 years, as previously calculated.
+
+Apply this age gap to your current age: 70 - 3 = 67. |
+
+It's consistent that your sister is 67 years old now.
