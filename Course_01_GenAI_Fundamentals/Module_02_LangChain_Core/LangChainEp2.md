@@ -25,3 +25,21 @@ output_variables = ['meal','recipe','time',
 verbose = True)
 
 overall_chain.Invoke(input={'location'='china'})
+
+
+# Memory
+* Memory storage is important for reading and writing historical data.
+* Each chain relies on specific inputs such as user and memory
+## Steps
+1. Chains reads from memory to enhance user inputs before executing its core logic.
+2. Writes the current runs inputs and outputs back to the memory after execution.
+This ensures continuity and context preservation across interactions.
+
+## Code example
+from langchain.memory import ChatMessageHistory
+chat = mixtral_llm
+history = ChatMessageHistory()
+history.add_ai_message("hi")
+history.add_user_message("What is the capital of France?")
+
+# Agents
