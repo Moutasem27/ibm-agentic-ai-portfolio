@@ -43,3 +43,12 @@ history.add_ai_message("hi")
 history.add_user_message("What is the capital of France?")
 
 # Agents
+Agents in LangChain are Dynamic systems where a Language Model determine and sequence actions such as pre-defined chains. 
+The model generates text outputs to guide actions, but dose not execute them directly. However, agents integrate with tools such as search engine, databases, and websites to fulfill user requests.
+
+## code example: Pandas dataframe agent using LangChain
+df = pd.read_csv("example.csv")
+
+agent = create_pandas_dataframe_agent(mixtral_llm, df, verbose=True, return_intermediate_steps = True)
+
+agent.invoke("How many rows in the dataframe")
